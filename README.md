@@ -40,7 +40,7 @@ helm ls -n airflow
 kubectl port-forward svc/airflow-webserver 8080:8080 -n airflow --context kind-airflow-cluster
 
 ## To update Airflow deployment
-## Check the current revision
+### Check the current revision
 helm ls -n airflow
 
 ## Upgrade the chart
